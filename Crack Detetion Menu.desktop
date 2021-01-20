@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=true
+Exec=python3 /home/eee/CrackUI/YOLO_GUI.py
+Name=
+Comment=
+Icon=/home/eee/CrackUI/yolo_crack.png
+Name[en_US]=Crack Detetion Menu.desktop
