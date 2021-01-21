@@ -39,7 +39,7 @@ NOTE: Remember to put the & after the command line as it is required to ensure y
 
 SIMILARLY, scroll to line 56 and replace the old command with your new one you replaced in line 41.
 
-                                                                 END OF GUI CONFIGURATION
+                                                            END OF GUI CONFIGURATION
 
 Configuration of python Image sorter:
 
@@ -47,11 +47,11 @@ Open the imageviewer folder and open the file called "settings.py"
 
 Inside the python code, scroll to line 14 and under the source directory, you want to have the location of where the screenshots of your crack images are located. Currently, it is located as "/home/eee/darknet-yolo/screenshot".
 
-                                                                END OF IMAGE SORTER CONFIGURATION
+                                                           END OF IMAGE SORTER CONFIGURATION
 
 Now that everything has been configured, we can launch the GUI by simply just clicking the desktop icon lablled "Crack Detection Menu.desktop". and the crack detection should start by clicking the start button.
 
-                                                                HOW TO USE THE IMAGE SORTER
+                                                           HOW TO USE THE IMAGE SORTER
 
 Once the image sorter has been successfully set up, you can either open the GUI and click on the eye icon or manually input "python3 image_viewer.py" into the command terminal to launch the sorter. Once opened, an image of the detected crack should show up. Use the left and right arrow keys to scroll through the images.
 
