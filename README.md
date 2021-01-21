@@ -62,6 +62,7 @@ Now, for a use case scenario, press "1" on your keyboard to send the image to th
 If you need to edit the file path of the GUI python code to allow the desktop icon to launch it, right click the desktop icon and open it with text editor. This will allow you to change edit the code used to launch the application.
 
 Credits for the Imageviewer goes to josvromans 
+
 Link to imageviewer: https://github.com/josvromans/imageviewer/blob/master/image_viewer.py
 
 
