@@ -46,6 +46,8 @@ Now that everything has been configured, we can launch the GUI by simply just cl
 If you need to edit the file path of the GUI python code, right click the desktop icon and open it with text editor. This will allow you to change edit the code used to launch the application.
 
 
+Credits for the Imageviewer goes to josvromans
+Link to imageviewer: https://github.com/josvromans/imageviewer/blob/master/image_viewer.py
 
 
 
