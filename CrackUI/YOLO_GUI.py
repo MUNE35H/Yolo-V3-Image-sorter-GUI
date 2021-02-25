@@ -38,7 +38,7 @@ main_start=ImageTk.PhotoImage(start2)
 def startClick():
     myLabel = Label(root, 
     os.chdir("/home/eee/darknet-yolo"),
-    os.system("./darknet detector demo data/obj.data cfg/yolov3.cfg backup/yolov3_finalcrack2_0.32-0.36thresh.weights -thresh  0.123 & ") )
+    os.system("./darknet detector demo data/obj.data cfg/yolov3.cfg backup/yolov3-crack_updated.weights -thresh  0.123 & ") )
     myLabel.pack()
 
 
@@ -53,7 +53,7 @@ main_quit=ImageTk.PhotoImage(quit2)
 
 def quitmaster():
     os.system("killall python3 image_viewer.py") 
-    os.system("killall ./darknet detector demo data/obj.data cfg/yolov3.cfg backup/yolov3_finalcrack2_0.32-0.36thresh.weights -thresh 0.123 ")
+    os.system("killall ./darknet detector demo data/obj.data cfg/yolov3.cfg backup/yolov3-crack_updated.weights -thresh 0.123 ")
     root.destroy
  
 button_quit = Button(root,image= main_quit,activebackground='red', borderwidth = 0, command=quitmaster )#used to exit the app
